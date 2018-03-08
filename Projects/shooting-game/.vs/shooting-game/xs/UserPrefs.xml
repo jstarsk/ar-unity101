@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets/Scripts/PhoneShooterManager.cs" Line="10" Column="5" />
       <File FileName="Assets/Scripts/CameraRotationManager.cs" Line="14" Column="9" />
-      <File FileName="Assets/Scripts/Score.cs" Line="5" Column="35" />
+      <File FileName="Assets/Scripts/Score.cs" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
