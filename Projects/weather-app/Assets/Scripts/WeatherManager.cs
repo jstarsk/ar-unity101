@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeatherManager : MonoBehaviour {
+public class WeatherManager : MonoBehaviour
+{
     string JSON_Name;
     string JSON_Country;
     string JSON_Temperature;
