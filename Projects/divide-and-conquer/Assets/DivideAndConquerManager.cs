@@ -5,11 +5,15 @@ using UnityEngine;
 public class DivideAndConquerManager : MonoBehaviour {
 
     int Min;
-    int MAx;
+    int Max;
     int Guess;
 
 	// Use this for initialization
 	void Start () {
+        Min = 1;
+        Max = 1000;
+        Guess = 500;
+
         StartGame();
 	}
 	
@@ -22,9 +26,9 @@ public class DivideAndConquerManager : MonoBehaviour {
     {
         print("welcome to divide and conquer game :)");
         print("Pick a new number in you mind. let see how good are hiding numbers");
-        print("the higthes number you can pick is");
-        print("the lower number you can pick is");
-        print("Is the number > or < that");
+        print("the higthes number you can pick is" + Max);
+        print("the lower number you can pick is" + Min);
+        print("Is the number > or < that" + Guess);
         print("Up arrow = >, Down arrow = <, Enter = equal");
 
     }
