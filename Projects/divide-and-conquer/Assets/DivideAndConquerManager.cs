@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class DivideAndConquerManager : MonoBehaviour {
 
+    int Min;
+    int MAx;
+    int Guess;
+
 	// Use this for initialization
 	void Start () {
         StartGame();
@@ -11,14 +15,15 @@ public class DivideAndConquerManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        RunnigGame();
 	}
 
     void StartGame()
     {
         print("welcome to divide and conquer game :)");
         print("Pick a new number in you mind. let see how good are hiding numbers");
-        print("the higthes number you can is");
-        print("the lower number you can is");
+        print("the higthes number you can pick is");
+        print("the lower number you can pick is");
         print("Is the number > or < that");
         print("Up arrow = >, Down arrow = <, Enter = equal");
 
@@ -26,15 +31,14 @@ public class DivideAndConquerManager : MonoBehaviour {
 
     void RunnigGame(){
 
-        if(){
+        if(Input.GetKeyDown(KeyCode.UpArrow)){
             print("Arrow UP");
         }
-        else if(){
+        else if(Input.GetKeyDown(KeyCode.DownArrow)){
             print("Arrow DOWN");
 
         }
-
-        else if(){
+        else if(Input.GetKeyDown(KeyCode.Return)){
             print("ENTER");
 
         }
