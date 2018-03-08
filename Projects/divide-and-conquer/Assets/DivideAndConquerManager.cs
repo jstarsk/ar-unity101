@@ -6,7 +6,7 @@ public class DivideAndConquerManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
+        StartGame();
 	}
 	
 	// Update is called once per frame
@@ -24,4 +24,19 @@ public class DivideAndConquerManager : MonoBehaviour {
 
     }
 
+    void RunnigGame(){
+
+        if(){
+            print("Arrow UP");
+        }
+        else if(){
+            print("Arrow DOWN");
+
+        }
+
+        else if(){
+            print("ENTER");
+
+        }
+    }
 }
