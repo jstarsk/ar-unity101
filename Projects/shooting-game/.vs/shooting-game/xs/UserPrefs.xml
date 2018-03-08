@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{6A3BCDCD-42C1-2E0F-27E4-AF7B09020C18}|">
   <MonoDevelop.Ide.ItemProperties.shooting-game PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PhoneShooterManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraRotationManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PhoneShooterManager.cs" Line="11" Column="2" />
+      <File FileName="Assets/Scripts/PhoneShooterManager.cs" Line="25" Column="2" />
+      <File FileName="Assets/Scripts/CameraRotationManager.cs" Line="12" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
