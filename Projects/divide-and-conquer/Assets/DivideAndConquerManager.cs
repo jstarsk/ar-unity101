@@ -10,11 +10,6 @@ public class DivideAndConquerManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
-        Min = 1;
-        Max = 1000;
-        Guess = 500;
-
         StartGame();
 	}
 	
@@ -23,8 +18,17 @@ public class DivideAndConquerManager : MonoBehaviour {
         RunnigGame();
 	}
 
+
+    /// <summary>
+    /// ///////////////////
+    /// </summary>
     void StartGame()
     {
+
+        Min = 1;
+        Max = 1000;
+        Guess = 500;
+
         print("========================================");
 
         print("welcome to divide and conquer game :)");
