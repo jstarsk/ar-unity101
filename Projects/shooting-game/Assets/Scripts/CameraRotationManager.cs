@@ -13,8 +13,11 @@ public class CameraRotationManager : MonoBehaviour {
 	void Update () {
 
         float rotationSpeed = 5.0f;
-        float xMouse = Input.GetAxis("Mouse X");;
-        float yMouse = Input.GetAxis("Mouse Y"); ;
-        print("X: " + xMouse + " Y: " + yMouse);
+        float xMouse = Input.GetAxis("Mouse X") * rotationSpeed;
+        float yMouse = Input.GetAxis("Mouse Y") * rotationSpeed;
+
+        transform.localRotation = Quaternion.Euler(0, xMouse, 0) * transform.localRotation;
+        Camera camera = GetComponentInChildren<Camera>();
+        camera.transform.localRotation = Quaternion.Euler(yMouse, 0, 0) * camera.transform.localRotation;
 	}
 }

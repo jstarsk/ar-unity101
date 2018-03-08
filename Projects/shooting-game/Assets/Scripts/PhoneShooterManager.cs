@@ -6,7 +6,7 @@ public class PhoneShooterManager : MonoBehaviour {
 
     public GameObject PhoneXPrefab;
 
-    float PhoneXSpeed = 50.0f;
+    public float PhoneXSpeed = 50.0f;
 
 	// Use this for initialization
 	void Start () {
