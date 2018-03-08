@@ -25,6 +25,8 @@ public class DivideAndConquerManager : MonoBehaviour {
 
     void StartGame()
     {
+        print("========================================");
+
         print("welcome to divide and conquer game :)");
         print("Pick a new number in you mind. let see how good are hiding numbers");
         print("the higthes number you can pick is: " + Max);
@@ -38,14 +40,18 @@ public class DivideAndConquerManager : MonoBehaviour {
 
         if(Input.GetKeyDown(KeyCode.UpArrow)){
             print("Arrow UP");
+            Min = Guess;
+            NextGuess();
         }
         else if(Input.GetKeyDown(KeyCode.DownArrow)){
             print("Arrow DOWN");
-
+            Max = Guess;
+            NextGuess();
         }
         else if(Input.GetKeyDown(KeyCode.Return)){
             print("ENTER");
-
+            print("I won!");
+            StartGame();
         }
     }
 
