@@ -30,3 +30,10 @@ OS (Optional)->
 Android (Optional)->
 - **Android device**
 - **Android Studio** WIN or MAC - [Link Download](https://developer.android.com/studio/index.html)
+
+## REF WEB
+- http://wiki.unity3d.com/index.php/Main_Page
+- https://docs.unity3d.com/ScriptReference/
+- https://www.assetstore.unity3d.com/en/
+- https://kapeli.com/dash
+
